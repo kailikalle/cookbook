@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.gallery-image img {
+    width: 100%;
+}
+header .header-banner {
+
+width: 100%;
+display: table;
+
+}
+
+header .logo {
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+padding: 5px;
+}
+
+header img {
+    width: 100%;
+    position: center;
+}
+
+header h1 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 64px;
+    color: #ce796b;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: -10px;
+}
+
+header h2   {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 28px;
+    color: #ce796b;
+    margin-top:0px;
+}
+
+header nav ul {
+display: block;
+margin: 0 auto;
+text-align: center; /*IE*/
+width: fit-content;
+}
+
+header nav ul li {
+display: inline-block;
+padding: 30px  30px;
+}
+
+nav ul li a {
+font-family: "Space Mono", monospace;
+font-weight: 700;
+font-size: 32px;
+color: #ce796b;
+text-decoration: none;
+}
+
+footer {
+
+width: calc(100% - 80px);
+padding: 40px 40px;
+background-color: #e7ad99;
+margin-top: 20px;
+overflow: hidden;
+
+}
+
+footer ul {
+
+width: fit-content;
+float: left;
+padding-left: 0px;
+
+}
+
+footer ul li {
+
+display: block;
+padding: 0 0 0 0;
+
+}
+
+footer ul li p {
+
+font-family: "Space Mono", monospace;
+font-weight: 400;
+font-size: 18px;
+color: #ffffff;
+
+}
+
+footer ul li a {
+
+font-family: "Open Sans", monospace;
+font-weight: 400;
+font-size: 18px;
+color: #ffffff;
+text-decoration: none;
+
+}
+
+.footer-sm {
+
+width: 64px;
+float: right;
+
+}
+
+.footer-sm img {
+
+width: 100%;
+margin-bottom: 10px;
+
+}
+
+.index-meist h2 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 36px;
+    color: #ce796b;
+}
+
+.index-meist p {
+    font-family: "Space Mono", monospace;
+font-weight: 400;
+font-size: 18px;
+color: #495867;
+}
+
+.peidetav {
+    display: none;
+}
+
+.gallery-image {
+margin: 20px;
+position: relative;
+text-align: center;
+} 
+
+.gallery-image img {
+    border-radius: 50%;
+   display: inline-block; 
+   position: relative; 
+   width: 300px; 
+   height: 300px; 
+   overflow: hidden; 
+}
+
+.post-header {       
+
+/*kujundus*/
+font-family: "Space Mono", monospace;
+font-weight: 700;
+font-size: 48px;
+letter-spacing: 3px;
+line-height: normal;
+color: #ffffff;
+text-transform: uppercase;
+
+/*positsioneerimine*/
+position: absolute;
+top: 35%;
+left: 50%;
+transform: translate(-50%, -50%);
+} 
+
+.gallery-links {
+display: flex;
+flex-flow: row wrap;
+display: -webkit-flex;
+-webkit-flex-flow: row wrap;
+display: -moz-flex;
+-moz-flex-flow: row wrap;
+justify-content: center;
+-o-flex-flow: row wrap;
+justify-content: center;
+}
+
+@media only screen and (min-width: 950px) {
+
+    header h1   {
+        font-size: 100px;
+        margin-bottom: -10px;
+    }
+
+    header h2{
+        margin-top:0px;
+    }
+
+main {
+    margin: 30px;
+}
+
+.sissejuhatus {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.peidetav {
+  
+  width: 40%;
+  display: inline;
+  -o-object-fit: contain;
+     object-fit: contain;
+  align-self: flex-start;
+}
+
+.peidetav img {
+    padding-top: 80px;
+    width: 100%;
+}
+.index-meist {
+    padding-right: 100px;
+    width: 40%;
+  flex: 1 1 auto;
+}
+
+.index-meist {
+
+}
+
+}
